@@ -1,24 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import './inc/css/bootstrap.min.css';
+import './inc/css/font.css';
+import Top from './components/top.js';
+import About from './components/about.js'
+import Skills from './components/skills.js';
+import Projects from './components/projects.js';
+import Footer from './components/footer.js';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Top />
+      <About aboutContent="I specialise in Front-End Web Development and currently study Computer Science in the last year of a BSc degree. I enjoy challenging myself to create interactive applications / websites for both my own learning and freelance clients. I have 4 years of web development experience with a local Search Engine Optimisation agency, now I am looking to expand my career deeper into web development." />
+      <Skills />
+      <Projects />
+      <Footer />
     </div>
   );
 }
