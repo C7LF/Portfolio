@@ -1,11 +1,13 @@
 import React from 'react';
+import Fade from 'react-reveal/Fade';
 
 class Skills extends React.Component {
   render() {
     return (
-      <div>
+      <>
         <div className="container">
-          <div className="blocksections" data-aos="fade-down">
+          <Fade top>
+          <div className="blocksections">
             <h2>Skills</h2>
             <p className="small">What I can do</p>
             <br />
@@ -46,12 +48,14 @@ class Skills extends React.Component {
                   <li>Search Engine Optimisation</li>
                   <li>Digital Marketing</li>
                   <li>Graphic Design</li>
+                  <li>Project Management</li>
                 </ul>
               </div>
             </div>
           </div>
+          </Fade>
         </div>  
-      </div>
+      </>
     )
   }
 }

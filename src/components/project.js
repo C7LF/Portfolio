@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCode } from '@fortawesome/free-solid-svg-icons'
 import { faGlobe } from '@fortawesome/free-solid-svg-icons'
 
+
 class Project extends React.Component {  
 
   render() {
@@ -32,7 +33,7 @@ class Project extends React.Component {
   
 
     return (
-      <div>
+      <>
             <div className="row" data-aos="fade-right">
                 <div className={checkPropsIsLoR(this.props.LoR)} >
                     <h3>{this.props.pTitle}</h3>
@@ -52,8 +53,8 @@ class Project extends React.Component {
                     <img src={require("../inc/img/" + this.props.pImage)} width="100%" alt={this.props.pTitle} />
                 </div>
             </div>
-         <hr />                
-      </div>
+         <hr />          
+      </>
     )
   }
 }

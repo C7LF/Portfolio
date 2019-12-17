@@ -9,6 +9,9 @@ h3 {
 .navbar {
   padding:0px !important;
 }
+.navbar-home {
+  position: absolute;
+}
 .btn-clear {
   background-color:transparent !important;
   border:1px solid #fff !important;
@@ -216,7 +219,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f4c6b', end
   padding-bottom:50px;
 }
 .projects hr {
-  border-color:rgb(161, 161, 161) !important;
+  border-color:rgb(226, 226, 226) !important;
 }
 .btn-view {
   background-color:transparent !important;

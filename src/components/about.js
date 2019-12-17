@@ -1,10 +1,9 @@
 import React from 'react';
 
-
 class About extends React.Component {
   render() {
     return (
-      <div>
+      <>
         <div className="first">
           <a id="first"></a>
           <div className="about">
@@ -14,7 +13,7 @@ class About extends React.Component {
             </div>
           </div>
         </div>
-      </div>
+      </>
     )
   }
 }

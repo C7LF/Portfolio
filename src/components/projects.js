@@ -4,7 +4,7 @@ import Project from './project.js';
 class Projects extends React.Component {
   render() {
     return (
-      <div>
+      <>
         <div class="projects">
           <div class="container">
             <h2 class="text-center">Projects</h2>
@@ -20,7 +20,7 @@ class Projects extends React.Component {
           <br />
           <p class="text-center">More on the way! <em>Want to find out more?</em> <a class="darklink" href="mailto:info@c7-dev.co.uk">Email me</a></p>
         </div>
-      </div>
+      </>
     )
   }
 }
