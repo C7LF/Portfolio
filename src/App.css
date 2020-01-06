@@ -113,6 +113,11 @@ a:hover {
   text-indent: -.7em;
   margin-left:15px;
 }
+@media (max-width:768px) {
+  .projects img {
+    margin-top:15px;
+  }
+}
 
 .custom-list li::before {
   color: red; /* or whatever color you prefer */
@@ -194,16 +199,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f4c6b', end
   padding:0px !important;
 }
 .technologies li {
-  background-color:#3F4C6B;
+  background-color:#e2e2e2;
   padding:8px;
   display:inline-block;
   border-radius:3px;
-  color:#fff;
   font-size:11px;
-  margin-left:10px;
-}
-.technologies li:first-child {
-  margin-left:0px !important;
+  margin-right:10px;
 }
 .projects {
   margin-top:50px;
@@ -236,12 +237,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f4c6b', end
   border:1px solid #3F4C6B !important;
   color:#fff !important;
   font-size:14px !important;
-  margin-left:10px;
 }
 .btn-view-solid:hover {
   border:1px solid rgb(40, 50, 73) !important;
   background-color:rgb(40, 50, 73) !important;
   color:#fff;
+}
+.links a:first-child {
+  margin-right:10px;
 }
 .nprow {
   padding-top:0px !important;

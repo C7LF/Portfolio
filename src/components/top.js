@@ -26,7 +26,7 @@ class Top extends React.Component {
                       <h1>Callum<br />Fanshawe</h1>
                     </div>
                     <div className="smalldev">
-                      <p>Front-End Web Developer<BlinkLabel label='_' /></p>
+                      <p>Graduate Software Developer<BlinkLabel label='_' /></p>
                     </div>
                     <div className="contact">
                       <FontAwesomeIcon icon={faEnvelope} /> <a href="mailto:info@c7-dev.co.uk"> &nbsp;info@c7-dev.co.uk</a>
