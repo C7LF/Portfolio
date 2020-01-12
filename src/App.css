@@ -2,7 +2,6 @@ html,body {
   font-family: 'Montserrat', sans-serif !important;
   color:#fff;
   overflow-x: hidden;
-  height:100%;
 }
 h3 {
   font-size:20px !important;
@@ -32,9 +31,6 @@ h3 {
   width:80% !important;
 }
 .top {
-  /* background: #0f0c29; */ /* fallback for old browsers */
-/*background: -webkit-linear-gradient(to right, #0f0c29, #302b63, #24243e); */ /* Chrome 10-25, Safari 5.1-6 */
-/*background: linear-gradient(to right, #0f0c29, #302b63, #24243e);*/ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 display: -webkit-box;
 display: -webkit-flex;
 display: -ms-flexbox;
@@ -45,12 +41,17 @@ display: flex;
 align-items: center;
 min-height:100vh;
 height: -webkit-fill-available;
-/* background-image:url(mountains);
-background-size:cover; */
-
 background-blend-mode: multiply;
 background-color:rgba(0,0,0,0.2);
 }
+.top {
+  @supports (-webkit-appearance:none) {
+    .os-android & {
+      min-height: calc(100vh - 56px);
+    }
+  }
+}
+
 .sidebar-brand a {
   font-size:13px;
 }
@@ -120,9 +121,8 @@ a:hover {
     margin-top:15px;
   }
 }
-
 .custom-list li::before {
-  color: red; /* or whatever color you prefer */
+  color: red;
 }
 .tools li::before{
 color: #2893ff;
