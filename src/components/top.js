@@ -1,12 +1,10 @@
 import React from 'react';
-import { Parallax, Background } from 'react-parallax';
+import { Parallax } from 'react-parallax';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faChevronDown } from '@fortawesome/free-solid-svg-icons'
-import Nav from './nav'
+//import Nav from './nav'
 import BlinkLabel from './blink';
 import AnchorLink from 'react-anchor-link-smooth-scroll'
-
-
 
 class Top extends React.Component {
   render() {

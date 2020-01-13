@@ -5,10 +5,10 @@ class Projects extends React.Component {
   render() {
     return (
       <>
-        <div class="projects">
-          <div class="container">
-            <h2 class="text-center">Projects</h2>
-            <p class="small text-center">Some of my Recent Work</p>
+        <div className="projects">
+          <div className="container">
+            <h2 className="text-center">Projects</h2>
+            <p className="small text-center">Some of my Recent Work</p>
 
             <Project LoR="R" pTitle="Higher Education Portal" pSubTitle="Higher Education Computing App for Chesterfield College" pDesc="As part of the second year of my course, I was tasked with creating a portal for Higher Education computing students, where they could share thoughts through a group chat, forum and course reviews. Admins could also login to a custom CMS which would allow them to moderate reviews and add, edit and delete new pages and blog posts." pTechnologies={['ASP.NET','C#','CSS','HTML','MSSQL','Microsoft Azure']} pImage="hesite.jpg" codeLink="https://github.com/C7LF/HE-Site" />
             <Project LoR="L" pTitle="Wellness Nutrition Plus" pSubTitle="Nutrition Tips and eCommerce Website" pDesc="The client wanted this website to give readers tips, facts and overall information on everything relating to nutrition. The site uses WordPress as a CMS (content management system), along with WooCommerce, allowing users to purchase products from the site." pTechnologies={['WordPress','PHP','eCommerce','CSS','HTML','SEO']} pImage="wellnesssite.jpg" webLink="https://wellnessnutritionplus.co.uk/" />
@@ -17,7 +17,7 @@ class Projects extends React.Component {
 
           </div>
           <br />
-          <p class="text-center">More on the way! <em>Want to find out more?</em> <a class="darklink" href="mailto:info@c7-dev.co.uk">Email me</a></p>
+          <p className="text-center">More on the way! <em>Want to find out more?</em> <a className="darklink" href="mailto:info@c7-dev.co.uk">Email me</a></p>
         </div>
       </>
     )

@@ -6,11 +6,10 @@ import Fade from 'react-reveal/Fade';
 
 
 class Project extends React.Component {  
-
   render() {
     function NumberList(props) {
-      const listItems = props.map((props) =>
-        <li key={props.toString()}>
+      const listItems = props.map((props, index) =>
+        <li key={index}>
           {props}
         </li>
       );
@@ -31,7 +30,7 @@ class Project extends React.Component {
   
     return (
       <>
-        <div className="row" data-aos="fade-right">
+        <div className="row">
           <Fade left>
             <div className={checkPropsIsLoR(this.props.LoR)} >
                 <h3>{this.props.pTitle}</h3>
@@ -43,8 +42,8 @@ class Project extends React.Component {
                   </ul>
                 </div>
                 <div className="links">
-                  {this.props.codeLink ? <a className="btn btn-view" href={this.props.codeLink} target="_blank"><FontAwesomeIcon icon={faCode} /> View Code</a> : ''}
-                  {this.props.webLink ? <a className="btn btn-view-solid" href={this.props.webLink} target="_blank"><FontAwesomeIcon icon={faGlobe} /> Visit Website</a> : ''}
+                  {this.props.codeLink ? <a className="btn btn-view" href={this.props.codeLink} rel="noopener noreferrer" target="_blank"><FontAwesomeIcon icon={faCode} /> View Code</a> : ''}
+                  {this.props.webLink ? <a className="btn btn-view-solid" href={this.props.webLink} rel="noopener noreferrer" target="_blank"><FontAwesomeIcon icon={faGlobe} /> Visit Website</a> : ''}
                 </div>
             </div>
             <div className="col-md-5">
