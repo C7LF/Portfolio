@@ -30,12 +30,12 @@ class Project extends React.Component {
   
     return (
       <>
+      <Fade left>
         <div className="row">
-          <Fade left>
             <div className={checkPropsIsLoR(this.props.LoR)} >
                 <h3>{this.props.pTitle}</h3>
                 <p className="small">{this.props.pSubTitle}</p>
-                <p>{this.props.pDesc}</p>
+                <p className="description">{this.props.pDesc}</p>
                 <div className="technologies">
                   <ul>
                     {NumberList(this.props.pTechnologies)}
@@ -49,8 +49,8 @@ class Project extends React.Component {
             <div className="col-md-5">
                 <img src={require("../inc/img/" + this.props.pImage)} width="100%" alt={this.props.pTitle} />
             </div>
-          </Fade>
-        </div>
+          </div>
+        </Fade>
          <hr />          
       </>
     )
