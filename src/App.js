@@ -16,7 +16,7 @@ function App() {
   return (
     <div className="App">
       <Top />
-      <About aboutContent="I specialise in Front-End Web Development and currently study Computer Science in the last year of a BSc degree. I enjoy challenging myself to create interactive applications / websites for both my own learning and freelance clients. I have 4 years of web development experience with a local Search Engine Optimisation agency, now I am looking to expand my career deeper into web development." />
+      <About aboutContent="I’m a full stack developer based in the United Kingdom, currently working at Auto Trader UK as a Front-End Developer. I recently graduated with a First-class honours in Computer Science. I’m passionate about improving my skills as a software developer by challenging myself with a variety of projects." />
       <Skills />
       <Projects />
       <Footer />
