@@ -44,13 +44,6 @@ height: -webkit-fill-available;
 background-blend-mode: multiply;
 background-color:rgba(0,0,0,0.2);
 }
-.top {
-  @supports (-webkit-appearance:none) {
-    .os-android & {
-      min-height: calc(100vh - 56px);
-    }
-  }
-}
 .sidebar-brand a {
   font-size:13px;
 }

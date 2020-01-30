@@ -20,7 +20,8 @@ class Skills extends React.Component {
                   <li>CSS</li>
                   <li>JavaScript</li>
                   <li>PHP</li>
-                  <li>SQL</li>
+                  <li>SQL / NoSQL</li>
+                  <li>Java</li>
                   <li>ASP.NET w/ C#</li>
                 </ul>
               </div>
@@ -29,15 +30,14 @@ class Skills extends React.Component {
 			          <h3>Tools</h3>
                 <ul className="custom-list tools">
                   <li>WordPress <small> + Other CMS's</small></li>
-                  <li>Bootstrap</li>
+                  <li>SCSS</li>
                   <li>jQuery</li>
                   <li>PHPMyAdmin</li>
                   <li>Git <small> + Version Control</small></li>
                   <li>React</li>
                   <li>MongoDB</li>
-				          <li>Node.js</li>
+				          <li>Node</li>
 				          <li>Express</li>
-				          <li>SCSS</li>
                   <li>MS SQL Server</li>
                 </ul>
               </div> 
@@ -48,7 +48,7 @@ class Skills extends React.Component {
                   <li>Search Engine Optimisation</li>
                   <li>Digital Marketing</li>
                   <li>Graphic Design</li>
-                  <li>Project Management</li>
+                  <li>Agile Methodologies</li>
                 </ul>
               </div>
             </div>

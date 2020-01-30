@@ -10,9 +10,6 @@ import Footer from './components/footer.js';
 
 
 function App() {
-
-  document.title = 'C7 Dev.';
-    
   return (
     <div className="App">
       <Top />
