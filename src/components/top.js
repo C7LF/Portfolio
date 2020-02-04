@@ -6,11 +6,6 @@ import { faEnvelope, faChevronDown } from '@fortawesome/free-solid-svg-icons'
 import BlinkLabel from './blink';
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 
-import { faLinkedin } from "@fortawesome/free-brands-svg-icons"
-import { faGithub } from "@fortawesome/free-brands-svg-icons"
-import { faInstagram } from "@fortawesome/free-brands-svg-icons"
-import { faTwitter } from "@fortawesome/free-brands-svg-icons"
-
 class Top extends React.Component {
   render() {
     return (
