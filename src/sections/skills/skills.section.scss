@@ -1,0 +1,37 @@
+$thirtythree: calc(100% / 3);
+
+.blocksections {
+    padding: 50px;
+    border-radius: 15px;
+    border: 1px solid #e8e8e8;
+    margin-top: -50px;
+    background-color: #fff;
+    text-align: center;
+
+    .grid-col {
+        display: grid;
+        grid-template-columns: $thirtythree $thirtythree $thirtythree;
+        @media(max-width:710px) {
+            grid-template-columns: 100%;
+        }
+        @media(min-width:710px) {
+            margin-top:40px
+        }
+    }
+    .custom-list {
+        list-style: none;
+        padding: 0;
+        margin: 15px 0 0 0;
+    }
+    .skills-icon {
+        margin-bottom:30px;
+        @media(max-width:710px) {
+            margin-bottom: 10px;
+            margin-top: 20px;
+        }
+    }
+    .skills-heading {
+        display:block;
+        font-weight:600;
+    }
+}

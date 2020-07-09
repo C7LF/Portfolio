@@ -1,0 +1,49 @@
+.react-parallax {
+    height:100vh;
+    
+    &__top {
+        display: flex;
+        align-items: center;
+        min-height: 100vh;
+        height: -webkit-fill-available;
+    }
+
+    &__name {
+        font-weight: 800;
+        font-size: 55px!important;
+        color: #fff;
+    }
+
+    &__sub-title {
+        font-weight: 400;
+        font-size: 20px;
+        color: #fff;
+    }
+
+    &__contact {
+        font-weight: 200;
+        margin-top: 60px;
+        color: #fff;
+    }
+
+    img  {
+        object-fit: cover;
+    }
+    
+    .more {
+        position: absolute;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        text-align: center;
+        padding-bottom: 40px;
+
+        .ccr {
+            padding: 18px 22px;
+            font-size: 25px;
+            color: #fff;
+        }
+    }
+    
+}
