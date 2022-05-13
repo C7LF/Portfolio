@@ -13,7 +13,6 @@ import './top.section.scss'
 const Top = ({
     image
 }) => {
-
     const classname = 'react-parallax'
 
     return (
@@ -27,7 +26,7 @@ const Top = ({
                 <div className={`${classname}__top`}>
                     <Container>
                         <h1 className={`${classname}__name`}>Callum<br />Fanshawe</h1>
-                        <span className={`${classname}__sub-title`}>Graduate Software Developer<Blink text="_" /></span>
+                        <span className={`${classname}__sub-title`}>Software Developer<Blink text="_" /></span>
                         <div className={`${classname}__contact`}>
                             <FontAwesomeIcon icon={faEnvelope} /> <a className='alink alink-light' href="mailto:info@c7-dev.co.uk">info@c7-dev.co.uk</a>
                         </div>

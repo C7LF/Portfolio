@@ -19,6 +19,16 @@ const projectData = [
     },
     {
         "id": "2",
+        "title": "Vesuvius",
+        "subtitle": "Multi-purpose discord bot",
+        "description": "Discord bot built with Node and TypeScript with features such as audio steaming (Youtube), reminders and command throttling.",
+        "image": "discord-bot.jpg",
+        "tags": ["React", "TypeScript", "MongoDB"],
+        "weblink": "",
+        "github": "https://github.com/C7LF/vesuvius"
+    },
+    {
+        "id": "3",
         "title": "Call Log Portal",
         "subtitle": "Web application to fetch and display call SIP call data",
         "description": "Call logging application built using the .Net stack to retrieve customer call log data from a third party via SFTP, customers are able to login to the portal and view their call data in a presentable format via graphs, tables and more.",
@@ -28,7 +38,7 @@ const projectData = [
         "github": "https://github.com/C7LF/call-log-portal"
     },
     {
-        "id": "3",
+        "id": "4",
         "title": "Higher Education Portal",
         "subtitle": "Higher Education Computing App for Chesterfield College",
         "description": "During university, I was tasked with creating a portal for Higher Education computing students in which they could share thoughts through a group chat, forum and leave course reviews. Admins could also login to a custom CMS which allows them to moderate reviews and add, edit and delete new pages and blog posts.",
@@ -36,10 +46,9 @@ const projectData = [
         "tags": [".NET", "C#", "CSS", "HTML", "MSSQL", "Azure"],
         "weblink": "",
         "github": "https://github.com/C7LF/HE-Site"
-
     },
     {
-        "id": "4",
+        "id": "5",
         "title": "Wellness Nutrition Plus",
         "subtitle": "Nutrition Tips and eCommerce Website",
         "description": "The client wanted a website to provide users with tips, facts and information on everything relating to nutrition. The site uses WordPress as a CMS along with WooCommerce, allowing users to purchase products from the site.",

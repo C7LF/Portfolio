@@ -57,8 +57,9 @@ const Skills = () => {
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>JavaScript</li>
-                <li>PHP</li>
+                <li>TypeScript</li>
                 <li>SQL / NoSQL</li>
+                <li>PHP</li>
                 <li>.Net</li>
               </ul>
             </div>
@@ -68,18 +69,18 @@ const Skills = () => {
                 alt="Code icon"
                 className="skills-icon"
               />
-              <span className="skills-heading">Tools</span>
+              <span className="skills-heading">Tools &amp; Frameworks</span>
               <ul className="custom-list tools">
-                <li>WordPress <small> + Other CMS's</small></li>
-                <li>SCSS</li>
-                <li>React</li>
                 <li>Angular</li>
-                <li>Redux</li>
-                <li>MongoDB</li>
+                <li>React</li>
                 <li>Node</li>
+                <li>Redux</li>
+                <li>SCSS</li>
+                <li>MongoDB</li>
                 <li>MS SQL Server</li>
                 <li>MySQL</li>
                 <li>Git <small> + Version Control</small></li>
+                <li>WordPress <small> + Other CMS's</small></li>
               </ul>
             </div>
             <div className="col">
